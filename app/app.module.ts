@@ -11,6 +11,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SearchComponent } from './components/search/search.component';
 import { FestivalComponent } from './components/festival/festival.component';
+import { ArtistComponent } from './components/artist/artist.component';
+import { AlbumComponent } from './components/album/album.component';
 
 
 import { routing } from './app.routing';
@@ -24,7 +26,9 @@ import { routing } from './app.routing';
                                   ContactComponent,
                                   SearchComponent,
                                   AboutComponent,
-                                  FestivalComponent
+                                  FestivalComponent,
+                                  ArtistComponent,
+                                  AlbumComponent
                                   ],
   bootstrap:    [ AppComponent ]
 })
