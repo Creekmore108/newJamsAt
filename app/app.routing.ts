@@ -6,8 +6,6 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FestivalComponent } from './components/festival/festival.component';
 import { MusicsearchComponent } from './components/musicsearch/musicsearch.component';
-import { ArtistComponent } from './components/artist/artist.component';
-import { AlbumComponent } from './components/album/album.component';
 
 const AppRoutes: Routes = [
 	{
@@ -29,17 +27,7 @@ const AppRoutes: Routes = [
 	{
 		path:'musicsearch',
 		component:MusicsearchComponent
-	},
-	{
-		path:'artist/:id',
-		component:ArtistComponent
-	},
-	{
-		path:'album/:id',
-		component:AlbumComponent
 	}
 
-	
-
 ];
-export const routing: ModulWithProviders = RouterModule.forRoot(AppRoutes);
+export const routing: ModuleWithProviders = RouterModule.forRoot(AppRoutes);
